@@ -140,4 +140,8 @@ def main(url):
     except Exception as e:
         print(e)
 
-main("https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=kUE4mw4AAAAJ")
+#Enter the link of the user
+#obtain excel result on results folder
+if(__name__ == '__main__'):
+    link = input('Enter the link of the user: ')
+    main(link)
